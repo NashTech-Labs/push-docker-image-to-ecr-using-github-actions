@@ -1,3 +1,9 @@
+name: Push Docker Image to ECR
+
+on:
+  push:
+    branches: main
+
 jobs:
   build:
     steps:
